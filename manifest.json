@@ -1,0 +1,14 @@
+{
+    "name": "Auto Dark Mode",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Automatic Dark mode for chrome & edge",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
